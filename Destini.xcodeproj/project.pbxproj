@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91507E6628F5AF4900F43664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91507E6528F5AF4900F43664 /* AppDelegate.swift */; };
+		91507E6828F5AF4900F43664 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91507E6728F5AF4900F43664 /* SceneDelegate.swift */; };
+		91507E6A28F5AF4900F43664 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91507E6928F5AF4900F43664 /* MainViewController.swift */; };
+		91507E6D28F5AF4900F43664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91507E6B28F5AF4900F43664 /* Main.storyboard */; };
+		91507E6F28F5AF4A00F43664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91507E6E28F5AF4A00F43664 /* Assets.xcassets */; };
+		91507E7228F5AF4A00F43664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91507E7028F5AF4A00F43664 /* LaunchScreen.storyboard */; };
+		91507E7D28F5AF4A00F43664 /* DestiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91507E7C28F5AF4A00F43664 /* DestiniTests.swift */; };
+		91507E8728F5AF4A00F43664 /* DestiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91507E8628F5AF4A00F43664 /* DestiniUITests.swift */; };
+		91507E8928F5AF4A00F43664 /* DestiniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91507E8828F5AF4A00F43664 /* DestiniUITestsLaunchTests.swift */; };
+		91507E9928F5C10B00F43664 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91507E9828F5C10B00F43664 /* Story.swift */; };
+		91507E9B28F5C13E00F43664 /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91507E9A28F5C13E00F43664 /* StoryBrain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91507E7928F5AF4A00F43664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91507E5A28F5AF4900F43664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91507E6128F5AF4900F43664;
+			remoteInfo = Destini;
+		};
+		91507E8328F5AF4A00F43664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91507E5A28F5AF4900F43664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91507E6128F5AF4900F43664;
+			remoteInfo = Destini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91507E6228F5AF4900F43664 /* Destini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Destini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91507E6528F5AF4900F43664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91507E6728F5AF4900F43664 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91507E6928F5AF4900F43664 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		91507E6C28F5AF4900F43664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91507E6E28F5AF4A00F43664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91507E7128F5AF4A00F43664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91507E7328F5AF4A00F43664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91507E7828F5AF4A00F43664 /* DestiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DestiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91507E7C28F5AF4A00F43664 /* DestiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestiniTests.swift; sourceTree = "<group>"; };
+		91507E8228F5AF4A00F43664 /* DestiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DestiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91507E8628F5AF4A00F43664 /* DestiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestiniUITests.swift; sourceTree = "<group>"; };
+		91507E8828F5AF4A00F43664 /* DestiniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestiniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91507E9828F5C10B00F43664 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		91507E9A28F5C13E00F43664 /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91507E5F28F5AF4900F43664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91507E7528F5AF4A00F43664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91507E7F28F5AF4A00F43664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91507E5928F5AF4900F43664 = {
+			isa = PBXGroup;
+			children = (
+				91507E6428F5AF4900F43664 /* Destini */,
+				91507E7B28F5AF4A00F43664 /* DestiniTests */,
+				91507E8528F5AF4A00F43664 /* DestiniUITests */,
+				91507E6328F5AF4900F43664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91507E6328F5AF4900F43664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91507E6228F5AF4900F43664 /* Destini.app */,
+				91507E7828F5AF4A00F43664 /* DestiniTests.xctest */,
+				91507E8228F5AF4A00F43664 /* DestiniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91507E6428F5AF4900F43664 /* Destini */ = {
+			isa = PBXGroup;
+			children = (
+				91507E6528F5AF4900F43664 /* AppDelegate.swift */,
+				91507E6728F5AF4900F43664 /* SceneDelegate.swift */,
+				91507E9728F5B0E200F43664 /* Model */,
+				91507E9528F5B0BF00F43664 /* View */,
+				91507E9628F5B0D300F43664 /* Controller */,
+				91507E6E28F5AF4A00F43664 /* Assets.xcassets */,
+				91507E7028F5AF4A00F43664 /* LaunchScreen.storyboard */,
+				91507E7328F5AF4A00F43664 /* Info.plist */,
+			);
+			path = Destini;
+			sourceTree = "<group>";
+		};
+		91507E7B28F5AF4A00F43664 /* DestiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				91507E7C28F5AF4A00F43664 /* DestiniTests.swift */,
+			);
+			path = DestiniTests;
+			sourceTree = "<group>";
+		};
+		91507E8528F5AF4A00F43664 /* DestiniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91507E8628F5AF4A00F43664 /* DestiniUITests.swift */,
+				91507E8828F5AF4A00F43664 /* DestiniUITestsLaunchTests.swift */,
+			);
+			path = DestiniUITests;
+			sourceTree = "<group>";
+		};
+		91507E9528F5B0BF00F43664 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91507E6B28F5AF4900F43664 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91507E9628F5B0D300F43664 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91507E6928F5AF4900F43664 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		91507E9728F5B0E200F43664 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91507E9828F5C10B00F43664 /* Story.swift */,
+				91507E9A28F5C13E00F43664 /* StoryBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91507E6128F5AF4900F43664 /* Destini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91507E8C28F5AF4A00F43664 /* Build configuration list for PBXNativeTarget "Destini" */;
+			buildPhases = (
+				91507E5E28F5AF4900F43664 /* Sources */,
+				91507E5F28F5AF4900F43664 /* Frameworks */,
+				91507E6028F5AF4900F43664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Destini;
+			productName = Destini;
+			productReference = 91507E6228F5AF4900F43664 /* Destini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91507E7728F5AF4A00F43664 /* DestiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91507E8F28F5AF4A00F43664 /* Build configuration list for PBXNativeTarget "DestiniTests" */;
+			buildPhases = (
+				91507E7428F5AF4A00F43664 /* Sources */,
+				91507E7528F5AF4A00F43664 /* Frameworks */,
+				91507E7628F5AF4A00F43664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91507E7A28F5AF4A00F43664 /* PBXTargetDependency */,
+			);
+			name = DestiniTests;
+			productName = DestiniTests;
+			productReference = 91507E7828F5AF4A00F43664 /* DestiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91507E8128F5AF4A00F43664 /* DestiniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91507E9228F5AF4A00F43664 /* Build configuration list for PBXNativeTarget "DestiniUITests" */;
+			buildPhases = (
+				91507E7E28F5AF4A00F43664 /* Sources */,
+				91507E7F28F5AF4A00F43664 /* Frameworks */,
+				91507E8028F5AF4A00F43664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91507E8428F5AF4A00F43664 /* PBXTargetDependency */,
+			);
+			name = DestiniUITests;
+			productName = DestiniUITests;
+			productReference = 91507E8228F5AF4A00F43664 /* DestiniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91507E5A28F5AF4900F43664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					91507E6128F5AF4900F43664 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					91507E7728F5AF4A00F43664 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 91507E6128F5AF4900F43664;
+					};
+					91507E8128F5AF4A00F43664 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 91507E6128F5AF4900F43664;
+					};
+				};
+			};
+			buildConfigurationList = 91507E5D28F5AF4900F43664 /* Build configuration list for PBXProject "Destini" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91507E5928F5AF4900F43664;
+			productRefGroup = 91507E6328F5AF4900F43664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91507E6128F5AF4900F43664 /* Destini */,
+				91507E7728F5AF4A00F43664 /* DestiniTests */,
+				91507E8128F5AF4A00F43664 /* DestiniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91507E6028F5AF4900F43664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91507E7228F5AF4A00F43664 /* LaunchScreen.storyboard in Resources */,
+				91507E6F28F5AF4A00F43664 /* Assets.xcassets in Resources */,
+				91507E6D28F5AF4900F43664 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91507E7628F5AF4A00F43664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91507E8028F5AF4A00F43664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91507E5E28F5AF4900F43664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91507E9B28F5C13E00F43664 /* StoryBrain.swift in Sources */,
+				91507E6A28F5AF4900F43664 /* MainViewController.swift in Sources */,
+				91507E6628F5AF4900F43664 /* AppDelegate.swift in Sources */,
+				91507E6828F5AF4900F43664 /* SceneDelegate.swift in Sources */,
+				91507E9928F5C10B00F43664 /* Story.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91507E7428F5AF4A00F43664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91507E7D28F5AF4A00F43664 /* DestiniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91507E7E28F5AF4A00F43664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91507E8728F5AF4A00F43664 /* DestiniUITests.swift in Sources */,
+				91507E8928F5AF4A00F43664 /* DestiniUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91507E7A28F5AF4A00F43664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91507E6128F5AF4900F43664 /* Destini */;
+			targetProxy = 91507E7928F5AF4A00F43664 /* PBXContainerItemProxy */;
+		};
+		91507E8428F5AF4A00F43664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91507E6128F5AF4900F43664 /* Destini */;
+			targetProxy = 91507E8328F5AF4A00F43664 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91507E6B28F5AF4900F43664 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91507E6C28F5AF4900F43664 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91507E7028F5AF4A00F43664 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91507E7128F5AF4A00F43664 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91507E8A28F5AF4A00F43664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91507E8B28F5AF4A00F43664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91507E8D28F5AF4A00F43664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D6XJW6V7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Destini/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MGorgan.Destini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91507E8E28F5AF4A00F43664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D6XJW6V7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Destini/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MGorgan.Destini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91507E9028F5AF4A00F43664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D6XJW6V7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MGorgan.DestiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Destini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Destini";
+			};
+			name = Debug;
+		};
+		91507E9128F5AF4A00F43664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D6XJW6V7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MGorgan.DestiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Destini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Destini";
+			};
+			name = Release;
+		};
+		91507E9328F5AF4A00F43664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D6XJW6V7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MGorgan.DestiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Destini;
+			};
+			name = Debug;
+		};
+		91507E9428F5AF4A00F43664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D6XJW6V7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MGorgan.DestiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Destini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91507E5D28F5AF4900F43664 /* Build configuration list for PBXProject "Destini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91507E8A28F5AF4A00F43664 /* Debug */,
+				91507E8B28F5AF4A00F43664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91507E8C28F5AF4A00F43664 /* Build configuration list for PBXNativeTarget "Destini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91507E8D28F5AF4A00F43664 /* Debug */,
+				91507E8E28F5AF4A00F43664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91507E8F28F5AF4A00F43664 /* Build configuration list for PBXNativeTarget "DestiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91507E9028F5AF4A00F43664 /* Debug */,
+				91507E9128F5AF4A00F43664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91507E9228F5AF4A00F43664 /* Build configuration list for PBXNativeTarget "DestiniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91507E9328F5AF4A00F43664 /* Debug */,
+				91507E9428F5AF4A00F43664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91507E5A28F5AF4900F43664 /* Project object */;
+}
