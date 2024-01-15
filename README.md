@@ -3,7 +3,7 @@ Destiny
 This is an interactive game that tells a story that changes according to the user's choices. Implements the MVC design pattern.
 
 ## Screenshots
-<img src="./img/1.png" width = 350 style="padding-right:70" > <img src="./img/2.png" width = 350 >
+<img src="./img/primo.png" width = 350 style="padding-right:70" > <img src="./img/secondo.png" width = 350 >
 
 
 ## Features
